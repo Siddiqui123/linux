@@ -128,7 +128,7 @@ static struct attribute *amba_dev_attrs[] = {
 	&dev_attr_resource.attr,
 	&dev_attr_driver_override.attr,
 	NULL,
-};
+}
 ATTRIBUTE_GROUPS(amba_dev);
 
 #ifdef CONFIG_PM
